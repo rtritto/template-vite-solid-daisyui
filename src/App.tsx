@@ -18,6 +18,8 @@ const App: Component = () => {
         >
           Learn Solid
         </a>
+
+        <input type="checkbox" checked class="checkbox" />
       </header>
     </div>
   )
