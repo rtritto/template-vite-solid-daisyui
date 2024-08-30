@@ -1,0 +1,37 @@
+{
+  "name": "template-vite-solid",
+  "version": "1.0.0",
+  "exports": "./src/index.ts",
+  "license": "MIT",
+  "type": "module",
+  "packageManager": "yarn@4.4.1",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "lint": "eslint .",
+    "od": "yarn outdated"
+  },
+  "dependencies": {
+    "solid-js": "^1.8.22"
+  },
+  "devDependencies": {
+    "@types/eslint": "^9",
+    "@types/node": "^22.5.1",
+    "@typescript-eslint/eslint-plugin": "^8.3.0",
+    "@typescript-eslint/parser": "^8.3.0",
+    "@yarnpkg/sdks": "^3.2.0",
+    "eslint": "^8.57.0",
+    "eslint-import-resolver-node": "^0.3.9",
+    "eslint-import-resolver-typescript": "^3.6.3",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-unicorn": "^55.0.0",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.2",
+    "vite-plugin-solid": "^2.10.2"
+  },
+  "engines": {
+    "node": ">=18 || >=20 || >=22"
+  }
+}
