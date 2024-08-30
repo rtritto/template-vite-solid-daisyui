@@ -19,7 +19,15 @@ const App: Component = () => {
           Learn Solid
         </a>
 
-        <input type="checkbox" checked class="checkbox" />
+        <div tabindex={0} class="collapse collapse-close collapse-arrow">
+          <div class="collapse-title">
+            Collapse title
+          </div>
+
+          <div class="collapse-content">
+            Collapse content
+          </div>
+        </div>
       </header>
     </div>
   )
