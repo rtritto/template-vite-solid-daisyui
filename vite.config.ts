@@ -1,9 +1,9 @@
-import { defineConfig } from 'vite'
+import type { UserConfig } from 'vite'
 import solidPlugin from 'vite-plugin-solid'
 import tailwindcss from 'tailwindcss'
 import autoprefixer from 'autoprefixer'
 
-export default defineConfig({
+export default {
   cacheDir: '.vite',
   plugins: [
     solidPlugin()
@@ -23,4 +23,4 @@ export default defineConfig({
       ]
     }
   }
-})
+} satisfies UserConfig
