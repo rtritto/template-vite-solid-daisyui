@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "type": "module",
-  "packageManager": "yarn@4.4.1",
+  "packageManager": "yarn@4.5.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -15,14 +15,14 @@
     "solid-js": "^1.8.22"
   },
   "devDependencies": {
-    "@types/eslint": "^9",
+    "@types/eslint": "^8.56.12",
     "@types/node": "^22.5.5",
     "@typescript-eslint/eslint-plugin": "^8.6.0",
     "@typescript-eslint/parser": "^8.6.0",
     "@yarnpkg/sdks": "^3.2.0",
     "autoprefixer": "^10.4.20",
     "daisyui": "^4.12.10",
-    "eslint": "^8.57.0",
+    "eslint": "^8.57.1",
     "eslint-import-resolver-node": "^0.3.9",
     "eslint-import-resolver-typescript": "^3.6.3",
     "eslint-plugin-import": "^2.30.0",
@@ -30,11 +30,11 @@
     "eslint-plugin-unicorn": "^55.0.0",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.12",
-    "typescript": "^5.6.2",
+    "typescript": "5.5.4",
     "vite": "^5.4.7",
     "vite-plugin-solid": "^2.10.2"
   },
   "engines": {
-    "node": ">=18 || >=20 || >=22"
+    "node": ">=20 || >=22"
   }
 }
