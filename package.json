@@ -31,6 +31,6 @@
     "vite-plugin-solid": "^2.10.2"
   },
   "engines": {
-    "node": ">=20 || >=22"
+    "node": ">=20"
   }
 }
