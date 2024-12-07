@@ -1,3 +1,6 @@
+# ARCHIVED
+Use another template from [templates-ecosystem](https://github.com/templates-ecosystem) instead.
+
 # template-vite-solid-daisyui
 
 ### 📚 Template stack
